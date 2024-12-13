@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-release:
+    name: Build and Upload Release Asset
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up variables
+        id: vars
+        run: |
+          # Extract version from the Git tag
+          VERSION=${GITHUB_REF_NAME#v}
+          echo "VERSION=${VERSION}" >> $GITHUB_ENV
+          ZIP_NAME="permit-manager-${VERSION}"
+          echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
+
+      - name: Install zip utility
+        run: sudo apt-get install -y zip
+
+      - name: Create ZIP excluding .deployignore files
+        run: zip -r ${{ env.ZIP_NAME }}.zip ./ -x@.deployignore
+      
+      - name: List all files
+        run: ls -la
+
+      - name: Upload files to current release
+        uses: svenstaro/upload-release-action@2.5.0
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ${{ env.ZIP_NAME}}.zip
+          asset_name: ${{ env.ZIP_NAME}}.zip
+          tag: ${{ github.ref }}
+          overwrite: true
+      
+      

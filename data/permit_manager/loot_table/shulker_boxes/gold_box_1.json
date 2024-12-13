@@ -1,0 +1,472 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:yellow_shulker_box",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "⟡ Gold Permits ⟡",
+                  "color": "yellow",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Box 1 of 3",
+                  "color": "gold"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ TNT ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Explosive Fireworks ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Honeycomb ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes Block & Item\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Deepslate ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Moss ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Horns ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Nametags ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Music Discs ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Tinted Glass ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Shroomlights ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Elytra ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Rooted Dirt ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Blaze Rods ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Sponge ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Glow Lichen ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Shulker Boxes ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Glass ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Does NOT include Stained Glass\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Kelp ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Candles ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Tridents ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Emerald Blocks ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Mushroom Blocks ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Pots and Sherds ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes all Sherd Types\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Leaves ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Mid Tier Books ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes: Loyalty, Projectile Protection,\",\"italic\":true}",
+                          "{\"text\":\"Impaling, Fire Protection,\",\"italic\":true}",
+                          "{\"text\":\"Blast Protection, Smite,\",\"italic\":true}",
+                          "{\"text\":\"Sweeping Edge, Thorns, Power\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Glow Ink Sacs ⟡\",\"color\":\"yellow\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Bamboo ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes all Bamboo Items\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

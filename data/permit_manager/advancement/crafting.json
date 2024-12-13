@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "craft_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "predicates": {
+              "minecraft:written_book_content": {
+                "title": "Permit Manager"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_book"
+    ]
+  ],
+  "rewards": {
+    "function": "permit_manager:craft_book"
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": "Permit Manager v1.0",
+                  "author": "CoconuttMonkey"
+                },
+                "minecraft:custom_data": {
+                  "datapack": "PermitManager"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "color": "light_purple",
+                  "italic": true,
+                  "text": "Property of the Permit Manager"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                [
+                  {
+                    "text": "    Pᴇʀᴍɪᴛ Mᴀɴᴀɢᴇʀ ",
+                    "color": "black",
+                    "shadow_color": 2071887486
+                  },
+                  {
+                    "text": "\n\nThis book allows you to generate shulker boxes containing shop permits.",
+                    "color": "black",
+                    "shadow_color": 0
+                  },
+                  {
+                    "text": "\n\nClicking the colored links on the next page will add these shulker boxes to your inventory.",
+                    "color": "black",
+                    "shadow_color": 0
+                  },
+                  {
+                    "text": "\n\n     ⟡ All Permits ⟡",
+                    "color": "dark_purple",
+                    "shadow_color": -2013591297,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 9 inventory slots",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 999"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "text": "\n ⟡ Dɪᴀᴍᴏɴᴅ Pᴇʀᴍɪᴛꜱ ⟡ \n\n\n",
+                    "color": "black",
+                    "shadow_color": -2029462785
+                  },
+                  {
+                    "text": "  ▸ ᴅɪᴀᴍᴏɴᴅ ʙᴏx ¹/₂ ◂",
+                    "color": "dark_aqua",
+                    "shadow_color": -2029462785,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 1"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "  ▸ ᴅɪᴀᴍᴏɴᴅ ʙᴏx ²/₂ ◂",
+                    "color": "dark_aqua",
+                    "shadow_color": -2029462785,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 2"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "    ▸ ᴀʟʟ ᴅɪᴀᴍᴏɴᴅ ◂",
+                    "color": "dark_aqua",
+                    "shadow_color": -2029462785,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 2 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 10"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "text": "\n   ⟡ Gᴏʟᴅ Pᴇʀᴍɪᴛꜱ ⟡ \n\n\n",
+                    "color": "black",
+                    "shadow_color": -2014052600
+                  },
+                  {
+                    "text": "    ▸ ɢᴏʟᴅ ʙᴏx ¹/₃ ◂",
+                    "color": "gold",
+                    "shadow_color": -2014052600,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 11"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "    ▸ ɢᴏʟᴅ ʙᴏx ²/₃ ◂",
+                    "color": "gold",
+                    "shadow_color": -2014052600,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 12"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "    ▸ ɢᴏʟᴅ ʙᴏx ³/₃ ◂",
+                    "color": "gold",
+                    "shadow_color": -2014052600,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 13"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "      ▸ ᴀʟʟ ɢᴏʟᴅ ◂",
+                    "color": "gold",
+                    "shadow_color": -2014052600,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 2 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 20"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "text": "\n   ⟡ Iʀᴏɴ Pᴇʀᴍɪᴛꜱ ⟡ \n\n\n",
+                    "color": "black",
+                    "shadow_color": 1699893842
+                  },
+                  {
+                    "text": "     ▸ ɪʀᴏɴ ʙᴏx ¹/₄ ◂",
+                    "color": "dark_gray",
+                    "shadow_color": 1699893842,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 21"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "     ▸ ɪʀᴏɴ ʙᴏx ²/₄ ◂",
+                    "color": "dark_gray",
+                    "shadow_color": 1699893842,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 22"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "     ▸ ɪʀᴏɴ ʙᴏx ³/₄ ◂",
+                    "color": "dark_gray",
+                    "shadow_color": 1699893842,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 23"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "     ▸ ɪʀᴏɴ ʙᴏx ⁴/₄ ◂",
+                    "color": "dark_gray",
+                    "shadow_color": 1699893842,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 1 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 24"
+                    }
+                  },
+                  {
+                    "text": "\n\n"
+                  },
+                  {
+                    "text": "       ▸ ᴀʟʟ ɪʀᴏɴ ◂",
+                    "color": "dark_gray",
+                    "shadow_color": 1699893842,
+                    "hoverEvent": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Requires 2 inventory slot",
+                          "color": "light_purple",
+                          "italic": true
+                        }
+                      ]
+                    },
+                    "clickEvent": {
+                      "action": "run_command",
+                      "value": "/trigger pm_trigger set 30"
+                    }
+                  }
+                ]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

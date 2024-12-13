@@ -1,0 +1,462 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:light_gray_shulker_box",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "⟡ Iron Permits ⟡",
+                  "color": "gray",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Box 1 of 4",
+                  "color": "dark_gray"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Coal ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Podzol & Mycelium ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Basalt ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Soul Sand & Soul Soil ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Cut Grass ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Glowstone ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Grass Block ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Gilded Blackstone ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Banners & Patterns ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Bottle of Enchanting ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Magma ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Nylium ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Wart Blocks ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Nether Plants ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Stone ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Totem of Undying ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Cobble ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Purpur and Chorus Fruit ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Amethyst ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Nether Bricks ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ F Tier Books ⟡\",\"color\":\"gray\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes: LoTS, Curse of Binding,\",\"italic\":true}",
+                          "{\"text\":\"Flame, Punch, Channelling,\",\"italic\":true}",
+                          "{\"text\":\"Quick Charge, Curse of Vanishing,\",\"italic\":true}",
+                          "{\"text\":\"Piercing, Lure, Frost Walker,\",\"italic\":true}",
+                          "{\"text\":\"Multishot, Riptide, Fire Aspect,\",\"italic\":true}",
+                          "{\"text\":\"Bane of Arthropods, Knockback\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Campfires ⟡\",\"color\":\"gray\",\"italic\":true}"
+                    }
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ String ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Regular Bookshelves ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ End Crystal ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Snow & Powder Snow ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "iron"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Chiseled Bookshelves ⟡\",\"color\":\"gray\",\"italic\":true}"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

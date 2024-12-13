@@ -1,0 +1,8 @@
+./README.md
+./.gitignore
+./.git*
+./.DS_Store
+./.deployignore
+./screenshots/
+./icon-lg.png
+./LICENSE

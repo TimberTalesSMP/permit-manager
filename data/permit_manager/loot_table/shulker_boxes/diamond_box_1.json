@@ -1,0 +1,482 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:light_blue_shulker_box",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "⟡ Diamond Permits ⟡",
+                  "color": "aqua",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Box 1 of 2",
+                  "color": "dark_aqua"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Warped & Crimson Stem ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Oak & Birch Logs ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Jungle & Dark Oak Logs ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Acacia & Spruce Logs ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Mangrove & Cherry Logs ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Tuff & Calcite ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Prismarine ⟡\",\"color\":\"aqua\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes Sea Lanterns\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Mud & Packed Mud ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Iron & Gold ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ S-Tier Books ⟡\",\"color\":\"aqua\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes: Efficiency, Respiration,\",\"italic\":true}",
+                          "{\"text\":\"Silk Touch, Depth Strider,\",\"italic\":true}",
+                          "{\"text\":\"Soul Speed, Protection,\",\"italic\":true}",
+                          "{\"text\":\"Looting, Mending, Unbreaking,\",\"italic\":true}",
+                          "{\"text\":\"Sharpness, Feather Falling,\",\"italic\":true}",
+                          "{\"text\":\"Fortune, Swift Sneak,\",\"italic\":true}",
+                          "{\"text\":\"Infinity, Aqua Affinity\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Templates ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Food ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Flight Rockets ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Sand & Gravel ⟡\",\"color\":\"aqua\",\"italic\":true}",
+                        "lore":[
+                          "{\"text\":\"Includes Sus Sand and\",\"italic\":true}",
+                          "{\"text\":\"Sus Gravel. No duping\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Honey & Slime Blocks ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All Froglights ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Copper ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 17,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Quartz ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 18,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"🃏 Joker Permit 🃏\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 19,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Dyes & Flowers ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 20,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Heads ⟡\",\"color\":\"aqua\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes: Mob heads, Player\",\"italic\":true}",
+                          "{\"text\":\"heads and miniblocks\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 21,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Potions ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 22,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Concrete ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 23,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Coral ⟡\",\"color\":\"aqua\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Sea Pickles\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 24,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Conduits & Beacons ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  },
+                  {
+                    "slot": 25,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Tough Stuff ⟡\",\"color\":\"aqua\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes: Obsidian, Crying Obsidian,\",\"italic\":true}",
+                          "{\"text\":\"Ancient Debris, Enderchests,\",\"italic\":true}",
+                          "{\"text\":\"Respawn Anchor & Lodestone\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 26,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "diamond"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ All the Mobs ⟡\",\"color\":\"aqua\",\"italic\":true}"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

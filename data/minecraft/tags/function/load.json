@@ -1,0 +1,7 @@
+{
+	"values": [
+		"permit_manager:load",
+		"permit_manager:tick",
+    "permit_manager:second"
+	]
+}

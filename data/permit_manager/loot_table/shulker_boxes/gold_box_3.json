@@ -1,0 +1,372 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:yellow_shulker_box",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "text": "⟡ Gold Permits ⟡",
+                  "color": "yellow",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Box 3 of 3",
+                  "color": "gold"
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:container": [
+                  {
+                    "slot": 0,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 1,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Red Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 2,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Orange Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 3,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Yellow Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 4,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Lime Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 5,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Green Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 6,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Cyan Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 7,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Light Blue Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 8,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Blue Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 9,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Purple Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 10,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Magenta Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 11,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Pink Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 12,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Brown Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 13,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Black Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 14,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Gray Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 15,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ Light Gray Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "slot": 16,
+                    "item": {
+                      "id": "minecraft:paper",
+                      "count": 1,
+                      "components": {
+                        "custom_model_data": {
+                          "strings": [
+                            "gold"
+                          ]
+                        },
+                        "custom_name": "{\"text\":\"⟡ White Terracotta ⟡\",\"color\":\"yellow\",\"italic\":true}",
+                        "lore": [
+                          "{\"text\":\"Includes Glazed Variation\",\"italic\":true}",
+                          "{\"text\":\"Ⓣ\",\"italic\":true}"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
